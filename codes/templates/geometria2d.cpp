@@ -1,32 +1,9 @@
-#include <bits/stdc++.h>
-
-using namespace std;
-
-#define _ ios_base::sync_with_stdio(0);cin.tie(0);
-#define endl '\n'
-
-#define f first
-#define s second
-
-#define vi vector<int>
-#define grafo vector<vector<int>>
-
-#define dbg(x) cout << #x << " = " << x << endl;
-
-typedef long long ll;
 typedef double T;
 
 const int INF = 0x3f3f3f3f;
 const ll LINF = 0x3f3f3f3f3f3f3f3fll;
 const double eps = 1e-9;
 const double pi = acos((double)-1.0);
-
-/*
-Para trabalhar com nums complexos
-typedef complex<T> pt;
-#define x real()
-#define y imag()
-*/
 
 // Funcao q retorna -1 para nums negativos, 0 para zero e 1 para positivos
 int sign(double x) {return (x > eps) - (x < -eps);}
@@ -92,13 +69,6 @@ T rad_to_deg(double r) {return (r * 180.0 / pi);}
 
 T deg_to_rad(double d) {return (d*pi/ 180.0);}
 
-/*
-Se complex 
-T dot(pt v, pt w) {return (conj(v)*w).x;}
-T cross(pt v, pt w) {return (conj(v)*w).y;}
-*/
-
-
 double angle(pt a, pt b){
 	double cosTheta = dot(a, b) / a.norm() / b.norm();
 	return acos(max(-1.0, min(1.0, cosTheta)));
@@ -118,7 +88,6 @@ bool isAngle(pt a, pt b, pt c, pt p){
 	if(orient(a, b, c) < 0) swap(b, c);
 	return orient(a, b, p) >= 0 and orient(a, c, p) <= 0;
 }
-
 
 // Retorn true plano superior
 bool half(pt p){
@@ -178,7 +147,4 @@ bool isConvex(vector<pt> p){
 	}
 
 	return !(hasPos and hasNeg);
-}
-int main(){ _
-	return 0;
 }
