@@ -8,9 +8,6 @@ using namespace std;
 #define f first
 #define s second
 
-#define vi vector<int>
-#define grafo vector<vector<int>>
-
 #define dbg(x) cout << #x << " = " << x << endl;
 
 typedef long long ll;
@@ -20,6 +17,5 @@ const ll LINF = 0x3f3f3f3f3f3f3f3fll;
 
 
 int main(){ _
-
 	return 0;
 }
