@@ -17,7 +17,7 @@ ll numeroDeDivisores(ll num){
 
 //Complexidade(N^1/3)
 //Nota: precisa de crivo para a execucao
-int numeroDevisores(int num){
+int numeroDivisores(int num){
     int ans = 1;
 
     for(auto& p : primos){
