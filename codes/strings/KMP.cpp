@@ -37,7 +37,7 @@ struct autKMP {
 		vector<int> p = pi(s);
 		nxt[s[0]-'a'][0] = 1;
 		for(char c = 0; c < 26; c++)
-			for(int i = 1; i < s.size(); i++)
+			for(int i = 1; i <= s.size(); i++)
 				nxt[c][i] = c == s[i]-'a' ? i+1 : nxt[c][p[i-1]];
 	}
 };
