@@ -366,3 +366,10 @@ T area(vector<pt>& v){
 	for(int i = 0; i < n; i++) ans += cross(v[i], v[(i+1)%n]);
 	return fabs(ans) * 0.5;
 }
+
+// retorna o perimetro de um poligono
+double perimeter(vector<pt>& v){
+	double ans = 0; int n = v.size();
+	for(int i = 0; i < n; i++) ans += dist(v[i], v[(i + 1) % n]);
+	return ans;
+}
