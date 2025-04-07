@@ -358,3 +358,11 @@ double ray_ray_distance(pt as, pt ad, pt bs, pt bd) {
 	ans = min(ans, dist_from_point_to_ray(bs, bd, as));
 	return ans;
 }
+
+// retorna a area de um poligono
+T area(vector<pt>& v){
+	T ans = 0; int n = v.size();
+
+	for(int i = 0; i < n; i++) ans += cross(v[i], v[(i+1)%n]);
+	return fabs(ans) * 0.5;
+}
