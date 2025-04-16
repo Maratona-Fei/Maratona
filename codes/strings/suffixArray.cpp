@@ -228,7 +228,7 @@ struct SuffixArray {
         return ans;
     }
 
-    // tem q add # entre as duas palavras
+    // tem q add % entre as duas palavras
     // divisor == posicao do %
     string lcs(int divisor){
                             //tam e pos
