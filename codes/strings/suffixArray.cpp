@@ -199,6 +199,9 @@ struct SuffixArray {
         return ans;
     }
 
+    // acha o intervalo [l, r] em que 
+    // ocorre um prefixo de tamanho len
+    // comecando em p na string
     pair<int,int> find_occurrence(int p, int len){
         p = rank[p];
         pair<int,int> ans = {p, p};
