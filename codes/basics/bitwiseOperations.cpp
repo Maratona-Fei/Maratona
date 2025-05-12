@@ -1,3 +1,5 @@
+// Bitwise
+
 // verifica se o bit k eh set
 int check_kth_bit(int x, int k){
 	return (x >> k) & 1;
