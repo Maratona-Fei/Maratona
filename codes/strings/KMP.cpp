@@ -1,3 +1,5 @@
+// KMP
+
 // matching(s, t) retorna os indices das ocorrencias 
 // de s em t
 // autKMP constroi o automato do KMP
