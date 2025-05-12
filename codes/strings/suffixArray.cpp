@@ -1,4 +1,4 @@
-//Suffix Array
+// Suffix Array
 
 #define vi vector<int>
 const int LG = 18;
