@@ -1,3 +1,5 @@
+// Hashing
+
 // Complexidade: construtor - O(|s|) | operator() - O(1)
 // fonte: github - brunomont
 
