@@ -1,3 +1,5 @@
+// Prim
+
 // Complexidade: O(mlogn)
 struct Edge {
 	int w = INF, to = -1;
