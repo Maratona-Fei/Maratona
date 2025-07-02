@@ -1,7 +1,7 @@
 // LIS
 
 // LIS q utiliza busca binaria | O(nlogn)
-// para subseq decrescente colocar lower_bound
+// para subseq cresc sem rep colocar lower_bound
 vector<int> lis(vector<int>& v, int n){
 	vector<int> d(n+1, INF), idx(n+1), p(n+1, -1);
 	d[0] = -INF;
@@ -22,7 +22,7 @@ vector<int> lis(vector<int>& v, int n){
 
 	for(int l = 0; l <= n; l++)
 		if(d[l] < INF) len = l;
-	
+	dbg(len);	
 	int act = idx[len];
 	
 	vector<int> ans;
@@ -33,6 +33,6 @@ vector<int> lis(vector<int>& v, int n){
 	}
 
 	reverse(ans.begin(), ans.end());
-
+	for(int x : ans)cout<<x<<' ';cout<<endl;
 	return ans;
 }
