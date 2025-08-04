@@ -9,11 +9,11 @@
 struct DSU{
 	vector<int> id, size;
 
-	dsu(int n) : id(n), size(n) {iota(id.begin(), id.end(), 0);} 
+	DSU(int n) : id(n), size(n) {iota(id.begin(), id.end(), 0);} 
 
 	int find(int v){
 		if(v == id[v]) return v;
-		return parent[v] = find(parent[v]);
+		return id[v] = find(id[v]);
 	}
 
 	void unite(int a, int b){
