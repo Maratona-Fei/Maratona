@@ -5,20 +5,19 @@
 
 struct edge {
 	int u, v, w;
+
 	bool operator<(edge const& other){
 		return w < other.w;
 	}
 };
 
 
-int kruskal(vector<edge> g){
-	int n = g.size();
-	
+int kruskal(vector<edge> g, int n){
 	DSU dsu(n);
 
 	int cost = 0;
 
-	vector<edge> mst(n);
+	vector<edge> mst;
 
 	sort(g.begin(), g.end());
 
