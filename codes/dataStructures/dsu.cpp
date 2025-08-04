@@ -6,7 +6,7 @@
 
 // complexidade: O(1) amortizado
 
-struct dsu{
+struct DSU{
 	vector<int> id, size;
 
 	dsu(int n) : id(n), size(n) {iota(id.begin(), id.end(), 0);} 
