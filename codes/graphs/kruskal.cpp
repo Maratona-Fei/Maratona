@@ -12,7 +12,7 @@ struct edge {
 };
 
 
-int kruskal(vector<edge> g, int n){
+int kruskal(vector<edge>& g, int n){
 	DSU dsu(n);
 
 	int cost = 0;
