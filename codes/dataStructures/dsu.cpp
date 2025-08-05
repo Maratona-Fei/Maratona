@@ -9,7 +9,7 @@
 struct DSU{
 	vector<int> id, size;
 
-	DSU(int n) : id(n), size(n) {iota(id.begin(), id.end(), 0);} 
+	DSU(int n) : id(n), size(n, 1) {iota(id.begin(), id.end(), 0);} 
 
 	int find(int v){
 		if(v == id[v]) return v;
