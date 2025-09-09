@@ -1,4 +1,3 @@
-///*
 //coprime pairs
 //
 //	descricao: quantos pairs (i, j), com i < j,
@@ -11,7 +10,6 @@
 //	< i e computo com quantos eu nao sou coprimo
 //	(compartilho ao menos 1 primo).
 //	O(nlogn)
-//*/
 
 const int MAX = 1e6+10;
 int divi[MAX];

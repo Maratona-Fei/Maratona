@@ -1,4 +1,3 @@
-///*
 //s-nim
 //
 //explicacao:
@@ -6,7 +5,6 @@
 //	algum valor em s[]. o exemplo mais simples pra uso de
 //	mex. lembra que uma posicao eh ganha em nim se o ^ de
 //	tudo nao eh 0.
-//*/
 
 int main()
 {

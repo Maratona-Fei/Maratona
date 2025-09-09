@@ -1,4 +1,3 @@
-///*
 //maximum xor subarray
 //
 //	descricao: pra uma array, definir qual o xor maximo
@@ -13,7 +12,6 @@
 //	aquele que eh anterior e que tem xor maximo comigo.
 //	esse lance de xor maximo da pra fazer com trie.
 //	O(nlogn)
-//*/
 
 struct trie {
 	vector<vector<int>> to;

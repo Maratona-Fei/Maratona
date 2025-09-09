@@ -1,4 +1,3 @@
-///*
 //mountain range
 //
 //	descricao: ele quer saber, dado um array, qual
@@ -18,7 +17,6 @@
 //	maior caminho dado. como o grafo eh uma dag, esse
 //	eh um problema manjado de dp em ordem topologica.
 //	O(n)
-//*/
 
 int solve() {
 	int n; cin >> n;

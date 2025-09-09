@@ -1,4 +1,3 @@
-///*
 //distinct values queries II
 //
 //	descricao: pra cada query responder "YES"
@@ -16,7 +15,6 @@
 //	dos "ponteiros" de next sao um porre e achei
 //	que vale a pena marcar.
 //	O(nlogn + qlogn)
-//*/
 
 const int MAX = 2e5+10;
 namespace seg {

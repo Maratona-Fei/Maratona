@@ -1,4 +1,3 @@
-///*
 //merge sort tree estatica
 //
 //descricao:
@@ -11,7 +10,6 @@
 //	memoria: o(nlog(n)) acho;
 //	build: o(nlog(n));
 //	query: o(nlog^2(n)), por causa da bin search;
-//*/
 
 namespace seg {
     vector<vector<int>> seg;

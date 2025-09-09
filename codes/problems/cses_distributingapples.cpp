@@ -1,4 +1,3 @@
-///*
 //distributing apples
 //
 //	descricao: sinceramente o problema eh bem simples
@@ -7,7 +6,6 @@
 //	mas sempre volto pra ele quando preciso precomputar
 //	fat[MAX] e invfat[MAX]. eh isso.
 //	O(n)
-//*/
 
 const int mod = 1e9 + 7;
 const int maxn = 4e6 + 10;

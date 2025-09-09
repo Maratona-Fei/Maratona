@@ -1,4 +1,3 @@
-///*
 //k-th sum
 //
 //	descricao: pra uma array, responder qual a kesima
@@ -7,7 +6,6 @@
 //	pares existem tal que a soma eh < que o m da 
 //	busca binaria.
 //	O(nlogn);
-//*/
 
 int solve() {
 	int n, k; cin >> n >> k;

@@ -1,4 +1,3 @@
-///*
 //area of rectangles
 //
 //	descricao: pra um conjunto de retangulos dados,
@@ -14,7 +13,6 @@
 //	eh query de min e contagem de min em range. aula
 //	1 de segtree do brunomont.
 //	O(nlogn)
-//*/
 
 const int MAX = 2e6+10;
 namespace seg {

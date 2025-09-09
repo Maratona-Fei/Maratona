@@ -1,4 +1,3 @@
-///*
 //segtree com update de modulo
 //
 //descricao:
@@ -18,7 +17,6 @@
 //	update: o(lognlogc), faz A[i] %= x pra todo i
 //			no segmento [l, r];
 //	set: o(logn), faz A[i] = x, pra so um i;
-//*/
 
 namespace seg {
 	struct nodo {

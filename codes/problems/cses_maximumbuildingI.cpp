@@ -1,4 +1,3 @@
-///*
 //maximum building I
 //
 //	descricao: qual a area do maior retangulo
@@ -9,7 +8,6 @@
 //	preguica de descrever melhor. eh isso ai.
 //
 //	O(nm);
-//*/
 
 int solve() {
 	int n, m; cin >> n >> m;

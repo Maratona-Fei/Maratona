@@ -1,8 +1,6 @@
-///*
 //maximum manhattan distances
 //
 //	descricao: eh isso ai. O(n)
-//*/
 
 int solve() {
 	int n; cin >> n;

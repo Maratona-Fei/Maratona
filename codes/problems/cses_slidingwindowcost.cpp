@@ -1,4 +1,3 @@
-///*
 //sliding window cost
 //
 //	descricao: pra toda subarray de tamanho k,
@@ -22,7 +21,6 @@
 //
 //	pra valores > mediana, da pra fazer algo parecido.
 //	O(nlogn)
-//*/
 
 struct Bit {
 	int n;

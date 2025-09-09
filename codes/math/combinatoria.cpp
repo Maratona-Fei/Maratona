@@ -1,6 +1,6 @@
 // Combinatoria
 
-// pré-calcula fatoriais e permite calcular coeficientes binomiais (n escolhe k) usando exponenciacao rapida e inverso modular
+// pre-calcula fatoriais e permite calcular coeficientes binomiais (n escolhe k) usando exponenciacao rapida e inverso modular
 
 const int MAX, mod;
 ll fat[MAX];

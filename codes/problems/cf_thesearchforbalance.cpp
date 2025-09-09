@@ -1,4 +1,3 @@
-///*
 //the search for balance
 //
 //	descricao: pra todo subconjunto de indices ate n
@@ -22,7 +21,6 @@
 //	[Lb, Rb] tambem. tem jeitos mais espertos de fazer
 //	(comprimir isso num array e fazer query de contagem
 //	de menores), mas esse jeito eh legal: bit2d.
-//*/
 
 template<class T = ll> struct bit2d {
 	vector<T> X;

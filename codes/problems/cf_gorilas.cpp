@@ -1,4 +1,3 @@
-///*
 //gorillas
 //
 //explicacao:
@@ -7,7 +6,6 @@
 //	atualizar um retangulo todo em o(1).
 //
 //	um exemplo de como usar difference array em range.
-//*/
 void solve() {
     int n, m, k; cin >> n >> m >> k;
 	int w; cin >> w;

@@ -1,4 +1,3 @@
-///*
 //periodic strings
 //
 //explicacao:
@@ -7,7 +6,6 @@
 //	string igual toda). legal por causa do hash na
 //
 //	string e ainda o hash em [l, r] mt brabo
-//*/
 #include <bits/stdc++.h>
 #define f first
 #define s second

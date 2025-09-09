@@ -1,4 +1,3 @@
-///*
 //segtree pra max subarray sum
 //
 //descricao:
@@ -10,7 +9,6 @@
 //	prop: o(1), atualiza valores do nodo;
 //	query: o(logn), nodo de [a, b];
 //	update: o(logn), seta x pra [a, b];
-//*/
 
 namespace seg {
     struct nodo {

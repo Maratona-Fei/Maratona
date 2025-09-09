@@ -1,4 +1,3 @@
-///*
 //distinct colors
 //
 //	descricao: pra cada nodo em uma arvore, responder
@@ -11,7 +10,6 @@
 //	vertice escolhendo migrar valores do filho menos
 //	pesado.
 //	O(nlog^2(n)) porque tem o set.
-//*/
 int solve() {
 	int n; cin >> n;
 	vector<vector<int>> G(n);
@@ -53,21 +51,19 @@ int solve() {
 	return(0);
 }
 
-/*
-	versao 2:
-	
-	maneiro por duas coisas:
-	1. linearizacao da arvores com euler tour.
-	se voce marca o tempo de entrada de um vertice u eu L[u]
-	e o de saida em R[u], entao todos os nodos em [L[u], R[u]]
-	nesse vetor pertencem a subarvore de u.
+// versao 2:
+// 
+// maneiro por duas coisas:
+// 1. linearizacao da arvores com euler tour.
+// se voce marca o tempo de entrada de um vertice u eu L[u]
+// e o de saida em R[u], entao todos os nodos em [L[u], R[u]]
+// nesse vetor pertencem a subarvore de u.
 
-	2. pra fazer query de distinto em range, da pra usar ordenar
-	e com ordered set pra saber quantos valores tem a sua ultima
-	ocorrencia depois do meu L[u].
+// 2. pra fazer query de distinto em range, da pra usar ordenar
+// e com ordered set pra saber quantos valores tem a sua ultima
+// ocorrencia depois do meu L[u].
 
-	O(nlogn)
-*/
+// O(nlogn)
 int solve() {
 	int n; cin >> n;
 	vector<vector<int>> g(n);

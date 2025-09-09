@@ -1,4 +1,3 @@
-///*
 //skyline photo
 //
 //	descricao: qual a melhor subdivisao da array
@@ -6,7 +5,6 @@
 //	eh o max dela.
 //
 //	malandragem usando stack monotonica nas transic
-//*/
 
 int solve() {
 	int n; cin >> n;

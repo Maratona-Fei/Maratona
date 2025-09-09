@@ -1,4 +1,3 @@
-///*
 //fixed-lenght paths I
 //
 //	descricao: pra uma arvore, responder quantos caminhos
@@ -9,7 +8,6 @@
 //	cetroides, responder quantos caminhos de tamanho k
 //	passam por ele.
 //	O(nlogn)
-//*/
 
 const int MAX = 2e5+10;
 vector<int> g[MAX];

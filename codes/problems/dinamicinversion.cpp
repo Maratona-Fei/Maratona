@@ -1,11 +1,9 @@
-///*
 //dinamic inversion
 //
 //	descricao: contar a quantidade de inversoes
 //	na array conforme for tirando valores dela.
 //	sqrt decomposition pra conseguir fazer as
 //	queries. descricao melhor no problema.
-//*/
 
 int solve(int n, int q) {
 	// cada remocao eh tirar:

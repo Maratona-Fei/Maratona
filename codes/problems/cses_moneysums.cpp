@@ -1,11 +1,9 @@
-///*
 //money sums
 //
 //descricao:
 //	quais valores eu consigo fazer usando qualquer
 //	quantidade distinta de notas 
 //	em O(nk)
-//*/
 int main()
 {
     _;
