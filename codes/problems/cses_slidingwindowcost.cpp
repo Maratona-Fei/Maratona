@@ -1,28 +1,28 @@
-/*
-sliding window cost
-
-	descricao: pra toda subarray de tamanho k,
-	sabendo que pago 1 pra subtrair 1 de A[i] ou
-	somar 1 em A[i], responder quanto tenho que 
-	pagar pra transformar toda a subarray em um
-	valor so.
-
-	eh resultado conhecido que a resposta otima
-	acontece quando o valor escolhido pra ser o
-	unico que acontece na array eh a mediana dela.
-
-	entao o problema se resume em responder a soma,
-	pra toda subarray de: abs(mediana - A[i]) pra
-	todo i em [l, r].
-
-	a ideia eh que, pra todo valor < mediana, eu
-	posso resumir abs(mediana - A[i]) como sendo
-	mediana * (quantos desse existem) - soma dos
-	menores. isso eh facil de responder com Bit.
-
-	pra valores > mediana, da pra fazer algo parecido.
-	O(nlogn)
-*/
+///*
+//sliding window cost
+//
+//	descricao: pra toda subarray de tamanho k,
+//	sabendo que pago 1 pra subtrair 1 de A[i] ou
+//	somar 1 em A[i], responder quanto tenho que 
+//	pagar pra transformar toda a subarray em um
+//	valor so.
+//
+//	eh resultado conhecido que a resposta otima
+//	acontece quando o valor escolhido pra ser o
+//	unico que acontece na array eh a mediana dela.
+//
+//	entao o problema se resume em responder a soma,
+//	pra toda subarray de: abs(mediana - A[i]) pra
+//	todo i em [l, r].
+//
+//	a ideia eh que, pra todo valor < mediana, eu
+//	posso resumir abs(mediana - A[i]) como sendo
+//	mediana * (quantos desse existem) - soma dos
+//	menores. isso eh facil de responder com Bit.
+//
+//	pra valores > mediana, da pra fazer algo parecido.
+//	O(nlogn)
+//*/
 
 struct Bit {
 	int n;

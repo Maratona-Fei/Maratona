@@ -1,20 +1,20 @@
-/*
-area of rectangles
-
-	descricao: pra um conjunto de retangulos dados,
-	computar qual a area da uniao deles.
-
-	a ideia eh que da pra sweepar em alguma direcao.
-	dai, pra cada linha desse sweep (no maximo 1e6)
-	da pra manter uma seg de "celulas ativas" (celu
-	las que pertencem a pelo menos um retangulo) e
-	fazer uma query pra saber quantas delas nao tao
-	sendo cobertas.
-
-	eh query de min e contagem de min em range. aula
-	1 de segtree do brunomont.
-	O(nlogn)
-*/
+///*
+//area of rectangles
+//
+//	descricao: pra um conjunto de retangulos dados,
+//	computar qual a area da uniao deles.
+//
+//	a ideia eh que da pra sweepar em alguma direcao.
+//	dai, pra cada linha desse sweep (no maximo 1e6)
+//	da pra manter uma seg de "celulas ativas" (celu
+//	las que pertencem a pelo menos um retangulo) e
+//	fazer uma query pra saber quantas delas nao tao
+//	sendo cobertas.
+//
+//	eh query de min e contagem de min em range. aula
+//	1 de segtree do brunomont.
+//	O(nlogn)
+//*/
 
 const int MAX = 2e6+10;
 namespace seg {

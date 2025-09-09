@@ -1,14 +1,13 @@
-/*
-berntown roads
+//berntown roads
+//
+//explicacao:
+//	transforme um grafo nao direcionado em um
+//	direcionado mas o mantenha conexo (da pra
+//	ir de qualquer um pra qualquer outro. o
+//	mais importante aqui sao os bridges. uma
+//	bridge eh um vertice que, se tirado, 
+//	aumenta o numero de componentes conexos).
 
-explicacao:
-	transforme um grafo nao direcionado em um
-	direcionado mas o mantenha conexo (da pra
-	ir de qualquer um pra qualquer outro. o
-	mais importante aqui sao os bridges. uma
-	bridge eh um vertice que, se tirado, 
-	aumenta o numero de componentes conexos).
-*/
 int main()
 {
     _;

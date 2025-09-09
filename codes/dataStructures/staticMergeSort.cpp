@@ -1,17 +1,17 @@
-/*
-merge sort tree estatica
-
-descricao:
-	cada nodo guarda um vetor ordenado de todos os
-	valores do range que ele resume. desse jeito 
-	retorna todos os valores menores ou iguais a x
-	em [l, r];
-
-complexidades:
-	memoria: o(nlog(n)) acho;
-	build: o(nlog(n));
-	query: o(nlog^2(n)), por causa da bin search;
-*/
+///*
+//merge sort tree estatica
+//
+//descricao:
+//	cada nodo guarda um vetor ordenado de todos os
+//	valores do range que ele resume. desse jeito 
+//	retorna todos os valores menores ou iguais a x
+//	em [l, r];
+//
+//complexidades:
+//	memoria: o(nlog(n)) acho;
+//	build: o(nlog(n));
+//	query: o(nlog^2(n)), por causa da bin search;
+//*/
 
 namespace seg {
     vector<vector<int>> seg;

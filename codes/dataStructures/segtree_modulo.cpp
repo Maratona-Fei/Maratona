@@ -1,24 +1,24 @@
-/*
-segtree com update de modulo
-
-descricao:
-	ideia por tras de bastante updates de beats.
-	tipo, da pra parar mais cedo do que descer
-	ate as folhas. nesse caso, eh ok parar quando
-	o segmento tem um valor so (max == min).
-
-	o c deg logc das complexidades eh o potencial
-	valor maximo que pode ter na array. 
-
-complexidades:
-	memoria: o(n);
-	build: o(n);
-	prop: o(1), atualiza valores do nodo;
-	query: o(lognlogc), nodo de [a, b];
-	update: o(lognlogc), faz A[i] %= x pra todo i
-			no segmento [l, r];
-	set: o(logn), faz A[i] = x, pra so um i;
-*/
+///*
+//segtree com update de modulo
+//
+//descricao:
+//	ideia por tras de bastante updates de beats.
+//	tipo, da pra parar mais cedo do que descer
+//	ate as folhas. nesse caso, eh ok parar quando
+//	o segmento tem um valor so (max == min).
+//
+//	o c deg logc das complexidades eh o potencial
+//	valor maximo que pode ter na array. 
+//
+//complexidades:
+//	memoria: o(n);
+//	build: o(n);
+//	prop: o(1), atualiza valores do nodo;
+//	query: o(lognlogc), nodo de [a, b];
+//	update: o(lognlogc), faz A[i] %= x pra todo i
+//			no segmento [l, r];
+//	set: o(logn), faz A[i] = x, pra so um i;
+//*/
 
 namespace seg {
 	struct nodo {

@@ -1,15 +1,15 @@
-/*
-segment with required subset
-
-	descricao: achar a menor subarray que tem
-	um subconjunto que soma x. essa do subconj
-	eh bem simples (dp. coin sum). agora manter
-	isso em uma sliding window eh foda.
-
-	pra isso, tem que usar swag (sliding window
-	agreggate, truque de duas stacks monotonicas)
-	e a parada fica mais facil.
-*/
+///*
+//segment with required subset
+//
+//	descricao: achar a menor subarray que tem
+//	um subconjunto que soma x. essa do subconj
+//	eh bem simples (dp. coin sum). agora manter
+//	isso em uma sliding window eh foda.
+//
+//	pra isso, tem que usar swag (sliding window
+//	agreggate, truque de duas stacks monotonicas)
+//	e a parada fica mais facil.
+//*/
 
 template<typename T>
 struct swag {

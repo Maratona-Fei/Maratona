@@ -1,17 +1,17 @@
-/*
-distinct colors
-
-	descricao: pra cada nodo em uma arvore, responder
-	a quantidade de 
-
-	versao 1:
-
-	maneiro porque dsu on tree.
-	comeco das folhas e vou subindo unindo filhos de um
-	vertice escolhendo migrar valores do filho menos
-	pesado.
-	O(nlog^2(n)) porque tem o set.
-*/
+///*
+//distinct colors
+//
+//	descricao: pra cada nodo em uma arvore, responder
+//	a quantidade de 
+//
+//	versao 1:
+//
+//	maneiro porque dsu on tree.
+//	comeco das folhas e vou subindo unindo filhos de um
+//	vertice escolhendo migrar valores do filho menos
+//	pesado.
+//	O(nlog^2(n)) porque tem o set.
+//*/
 int solve() {
 	int n; cin >> n;
 	vector<vector<int>> G(n);

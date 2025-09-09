@@ -1,12 +1,12 @@
-/*
-skyline photo
-
-	descricao: qual a melhor subdivisao da array
-	em subarrays tal que a o valor de cada subarray
-	eh o max dela.
-
-	malandragem usando stack monotonica nas transic
-*/
+///*
+//skyline photo
+//
+//	descricao: qual a melhor subdivisao da array
+//	em subarrays tal que a o valor de cada subarray
+//	eh o max dela.
+//
+//	malandragem usando stack monotonica nas transic
+//*/
 
 int solve() {
 	int n; cin >> n;

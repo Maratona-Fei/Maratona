@@ -1,13 +1,13 @@
-/*
-gorillas
-
-explicacao:
-	atualiza todos os quadrados de tamanho k
-	em uma matriz maior. legal porque da pra 
-	atualizar um retangulo todo em o(1).
-
-	um exemplo de como usar difference array em range.
-*/
+///*
+//gorillas
+//
+//explicacao:
+//	atualiza todos os quadrados de tamanho k
+//	em uma matriz maior. legal porque da pra 
+//	atualizar um retangulo todo em o(1).
+//
+//	um exemplo de como usar difference array em range.
+//*/
 void solve() {
     int n, m, k; cin >> n >> m >> k;
 	int w; cin >> w;

@@ -1,12 +1,12 @@
-/*
-hamiltonian flights
-
-	descricao: pra um grafo, computar qual o menor
-	caminho hamiltoniano (que passa por todos os
-	vertices). eh nphard mas com dp da pra fazer
-	em 
-	O(n^2(2^n))
-*/
+///*
+//hamiltonian flights
+//
+//	descricao: pra um grafo, computar qual o menor
+//	caminho hamiltoniano (que passa por todos os
+//	vertices). eh nphard mas com dp da pra fazer
+//	em 
+//	O(n^2(2^n))
+//*/
 
 int main()
 {

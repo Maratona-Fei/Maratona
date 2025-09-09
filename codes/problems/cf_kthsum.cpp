@@ -1,13 +1,13 @@
-/*
-k-th sum
-
-	descricao: pra uma array, responder qual a kesima
-	soma de A[i] + A[j] (pra todo i < j). a ideia eh
-	busca binaria + two pointers pra saber quantos 
-	pares existem tal que a soma eh < que o m da 
-	busca binaria.
-	O(nlogn);
-*/
+///*
+//k-th sum
+//
+//	descricao: pra uma array, responder qual a kesima
+//	soma de A[i] + A[j] (pra todo i < j). a ideia eh
+//	busca binaria + two pointers pra saber quantos 
+//	pares existem tal que a soma eh < que o m da 
+//	busca binaria.
+//	O(nlogn);
+//*/
 
 int solve() {
 	int n, k; cin >> n >> k;

@@ -1,22 +1,22 @@
-/*
-distinct values queries II
-
-	descricao: pra cada query responder "YES"
-	se nenhum valor entre [l, r] tem repeticao
-	nesse range.
-
-	a ideia eh simples: pra cada valor, eu marco,
-	nele, qual a proxima ocorrencia dele no array.
-	dai, se a proxima ocorrencia de A[i] <= r, 
-	pra todo i [l, r], entao esse valor repete 
-	nessa subarray.
-
-	o problema entao eh so query de min em range e
-	update em ponto. segtree facil. mas o atualizar
-	dos "ponteiros" de next sao um porre e achei
-	que vale a pena marcar.
-	O(nlogn + qlogn)
-*/
+///*
+//distinct values queries II
+//
+//	descricao: pra cada query responder "YES"
+//	se nenhum valor entre [l, r] tem repeticao
+//	nesse range.
+//
+//	a ideia eh simples: pra cada valor, eu marco,
+//	nele, qual a proxima ocorrencia dele no array.
+//	dai, se a proxima ocorrencia de A[i] <= r, 
+//	pra todo i [l, r], entao esse valor repete 
+//	nessa subarray.
+//
+//	o problema entao eh so query de min em range e
+//	update em ponto. segtree facil. mas o atualizar
+//	dos "ponteiros" de next sao um porre e achei
+//	que vale a pena marcar.
+//	O(nlogn + qlogn)
+//*/
 
 const int MAX = 2e5+10;
 namespace seg {

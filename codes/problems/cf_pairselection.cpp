@@ -1,12 +1,12 @@
-/*
-pair selection
-
-	descricao: pra um conjunto de pares (a, b)
-	responder qual a maior possivel valor de um
-	subconjunto desses pares desse jeito:
-	(ai + a_i+1 + ... + an) /
-	(bi + b_i+i + ... + bn)
-*/
+///*
+//pair selection
+//
+//	descricao: pra um conjunto de pares (a, b)
+//	responder qual a maior possivel valor de um
+//	subconjunto desses pares desse jeito:
+//	(ai + a_i+1 + ... + an) /
+//	(bi + b_i+i + ... + bn)
+//*/
 
 int solve() {
 	int n, k; cin >> n >> k;

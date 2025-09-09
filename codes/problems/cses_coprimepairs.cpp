@@ -1,17 +1,17 @@
-/*
-coprime pairs
-
-	descricao: quantos pairs (i, j), com i < j,
-	existe, tam que gcd(A[i], A[j]) == 1.
-
-	a ideia eh usar contagem de fatores normal,
-	mas quando for contar usar inclusao exclusao
-
-	pra todo i, eu olho pras frequencias de fator
-	< i e computo com quantos eu nao sou coprimo
-	(compartilho ao menos 1 primo).
-	O(nlogn)
-*/
+///*
+//coprime pairs
+//
+//	descricao: quantos pairs (i, j), com i < j,
+//	existe, tam que gcd(A[i], A[j]) == 1.
+//
+//	a ideia eh usar contagem de fatores normal,
+//	mas quando for contar usar inclusao exclusao
+//
+//	pra todo i, eu olho pras frequencias de fator
+//	< i e computo com quantos eu nao sou coprimo
+//	(compartilho ao menos 1 primo).
+//	O(nlogn)
+//*/
 
 const int MAX = 1e6+10;
 int divi[MAX];

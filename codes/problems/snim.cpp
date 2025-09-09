@@ -1,12 +1,12 @@
-/*
-s-nim
-
-explicacao:
-	quase um nim normal, mas pra cada posicao eu so posso
-	algum valor em s[]. o exemplo mais simples pra uso de
-	mex. lembra que uma posicao eh ganha em nim se o ^ de
-	tudo nao eh 0.
-*/
+///*
+//s-nim
+//
+//explicacao:
+//	quase um nim normal, mas pra cada posicao eu so posso
+//	algum valor em s[]. o exemplo mais simples pra uso de
+//	mex. lembra que uma posicao eh ganha em nim se o ^ de
+//	tudo nao eh 0.
+//*/
 
 int main()
 {

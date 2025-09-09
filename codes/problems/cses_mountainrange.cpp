@@ -1,24 +1,24 @@
-/*
-mountain range
-
-	descricao: ele quer saber, dado um array, qual
-	o maior "caminho" que pode ser feito comecando
-	de qualquer ponto do array. mas tu so pode sair
-	de i e ir pra j sse A[i] > A[j].
-
-	aqui cabem duas ideias legais:
-	1. pra cada posicao i, eu desenho uma aresta de
-	i pro primeiro valor a direita de i que eh maior
-	que eu. faco o mesmo pra esquerda. isso da pra
-	computar rapido com stack monotonica e nao 
-	precisa de muito esforco pra se convencer que 
-	isso eh otimo.
-
-	2. agora, no grafo construido, basta computar o
-	maior caminho dado. como o grafo eh uma dag, esse
-	eh um problema manjado de dp em ordem topologica.
-	O(n)
-*/
+///*
+//mountain range
+//
+//	descricao: ele quer saber, dado um array, qual
+//	o maior "caminho" que pode ser feito comecando
+//	de qualquer ponto do array. mas tu so pode sair
+//	de i e ir pra j sse A[i] > A[j].
+//
+//	aqui cabem duas ideias legais:
+//	1. pra cada posicao i, eu desenho uma aresta de
+//	i pro primeiro valor a direita de i que eh maior
+//	que eu. faco o mesmo pra esquerda. isso da pra
+//	computar rapido com stack monotonica e nao 
+//	precisa de muito esforco pra se convencer que 
+//	isso eh otimo.
+//
+//	2. agora, no grafo construido, basta computar o
+//	maior caminho dado. como o grafo eh uma dag, esse
+//	eh um problema manjado de dp em ordem topologica.
+//	O(n)
+//*/
 
 int solve() {
 	int n; cin >> n;

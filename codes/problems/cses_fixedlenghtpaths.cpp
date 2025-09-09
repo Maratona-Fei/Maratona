@@ -1,15 +1,15 @@
-/*
-fixed-lenght paths I
-
-	descricao: pra uma arvore, responder quantos caminhos
-	simples e distintos de tamanho k existem.
-
-	a ideia eh divide and conquer em arvore. divido o 
-	grafo no meio (no centroide) e, pra cada um desses 
-	cetroides, responder quantos caminhos de tamanho k
-	passam por ele.
-	O(nlogn)
-*/
+///*
+//fixed-lenght paths I
+//
+//	descricao: pra uma arvore, responder quantos caminhos
+//	simples e distintos de tamanho k existem.
+//
+//	a ideia eh divide and conquer em arvore. divido o 
+//	grafo no meio (no centroide) e, pra cada um desses 
+//	cetroides, responder quantos caminhos de tamanho k
+//	passam por ele.
+//	O(nlogn)
+//*/
 
 const int MAX = 2e5+10;
 vector<int> g[MAX];

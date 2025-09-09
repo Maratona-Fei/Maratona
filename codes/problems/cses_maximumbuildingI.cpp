@@ -1,15 +1,15 @@
-/*
-maximum building I
-
-	descricao: qual a area do maior retangulo
-	que cabe no matriz. um retangulo so cabe
-	se nao conter nenhum '*'.
-
-	tambem malandragem com stack monotonica.
-	preguica de descrever melhor. eh isso ai.
-
-	O(nm);
-*/
+///*
+//maximum building I
+//
+//	descricao: qual a area do maior retangulo
+//	que cabe no matriz. um retangulo so cabe
+//	se nao conter nenhum '*'.
+//
+//	tambem malandragem com stack monotonica.
+//	preguica de descrever melhor. eh isso ai.
+//
+//	O(nm);
+//*/
 
 int solve() {
 	int n, m; cin >> n >> m;

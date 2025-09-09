@@ -1,12 +1,12 @@
-/*
-misere nim
-
-explicacao:
-	basicamente nim normal mas quem ganha eh
-	que pega o ultimo e nao o penultimo. a sol
-	eh xor normal mas se tudo for 1 o primeiro
-	ganha tbm;
-*/
+///*
+//misere nim
+//
+//explicacao:
+//	basicamente nim normal mas quem ganha eh
+//	que pega o ultimo e nao o penultimo. a sol
+//	eh xor normal mas se tudo for 1 o primeiro
+//	ganha tbm;
+//*/
 int main()
 {
     _;

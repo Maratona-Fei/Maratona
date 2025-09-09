@@ -1,28 +1,28 @@
-/*
-the search for balance
-
-	descricao: pra todo subconjunto de indices ate n
-	ele quer saber quantos dele tem:
-	La <= soma(all(A[i])) <= Ra
-	Lb <= soma(all(B[i])) <= Rb
-
-	como n <= 40, nao da pra so testar todos os sub
-	conjuntos de toda a array, mas da pra fazer isso
-	pra no maximo uma metade dela.
-
-	(meet in the middle)
-	dai, olhando pros subconj de um lado da array,
-	preciso arranjar um jeito de contar quantos sub
-	conj do lado de la eu consigo juntar com o meu.
-
-	(prefix 2d)
-	nesse caso, preciso achar quantos do lado de la tem
-	a soma do A num range que nao estoure ou falte pra
-	estar dentro de [La, Ra] e similarmente dentro de
-	[Lb, Rb] tambem. tem jeitos mais espertos de fazer
-	(comprimir isso num array e fazer query de contagem
-	de menores), mas esse jeito eh legal: bit2d.
-*/
+///*
+//the search for balance
+//
+//	descricao: pra todo subconjunto de indices ate n
+//	ele quer saber quantos dele tem:
+//	La <= soma(all(A[i])) <= Ra
+//	Lb <= soma(all(B[i])) <= Rb
+//
+//	como n <= 40, nao da pra so testar todos os sub
+//	conjuntos de toda a array, mas da pra fazer isso
+//	pra no maximo uma metade dela.
+//
+//	(meet in the middle)
+//	dai, olhando pros subconj de um lado da array,
+//	preciso arranjar um jeito de contar quantos sub
+//	conj do lado de la eu consigo juntar com o meu.
+//
+//	(prefix 2d)
+//	nesse caso, preciso achar quantos do lado de la tem
+//	a soma do A num range que nao estoure ou falte pra
+//	estar dentro de [La, Ra] e similarmente dentro de
+//	[Lb, Rb] tambem. tem jeitos mais espertos de fazer
+//	(comprimir isso num array e fazer query de contagem
+//	de menores), mas esse jeito eh legal: bit2d.
+//*/
 
 template<class T = ll> struct bit2d {
 	vector<T> X;

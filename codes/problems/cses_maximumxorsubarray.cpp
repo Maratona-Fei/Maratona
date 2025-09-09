@@ -1,19 +1,19 @@
-/*
-maximum xor subarray
-
-	descricao: pra uma array, definir qual o xor maximo
-	que uma subarray pode ter. a ideia eh que, pra um
-	prefixo da array, todo prefixo anterior a ela pode
-	definir um subarray.
-
-	sei la como descrever isso mas basicamente:
-	xor(l, r) = xor(1, r) ^ xor(1, l-1)
-
-	particulamente, faz sentido, pra um prefixo r, escolher
-	aquele que eh anterior e que tem xor maximo comigo.
-	esse lance de xor maximo da pra fazer com trie.
-	O(nlogn)
-*/
+///*
+//maximum xor subarray
+//
+//	descricao: pra uma array, definir qual o xor maximo
+//	que uma subarray pode ter. a ideia eh que, pra um
+//	prefixo da array, todo prefixo anterior a ela pode
+//	definir um subarray.
+//
+//	sei la como descrever isso mas basicamente:
+//	xor(l, r) = xor(1, r) ^ xor(1, l-1)
+//
+//	particulamente, faz sentido, pra um prefixo r, escolher
+//	aquele que eh anterior e que tem xor maximo comigo.
+//	esse lance de xor maximo da pra fazer com trie.
+//	O(nlogn)
+//*/
 
 struct trie {
 	vector<vector<int>> to;

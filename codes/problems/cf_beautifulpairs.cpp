@@ -1,17 +1,15 @@
-/*
-beautiful pairs
-
-	descricao: pra queries [l, r], responder
-	quanto eh a soma das distancias de pares
-	adjascentes de valores iguais.
-
-	entao se A[i] = A[j] = A[k], responder:
-	abs(i - j) + abs(j - k)
-
-	da pra resolver com algoritmo de mo. sorta
-	do jeito de mo e depois mantem a sliding
-	window das posicoes de cada valor.
-*/
+//beautiful pairs
+//
+//	descricao: pra queries [l, r], responder
+//	quanto eh a soma das distancias de pares
+//	adjascentes de valores iguais.
+//
+//	entao se A[i] = A[j] = A[k], responder:
+//	abs(i - j) + abs(j - k)
+//
+//	da pra resolver com algoritmo de mo. sorta
+//	do jeito de mo e depois mantem a sliding
+//	window das posicoes de cada valor.
 
 const int tam = 400;
 int solve() {

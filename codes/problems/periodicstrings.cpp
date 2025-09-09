@@ -1,13 +1,13 @@
-/*
-periodic strings
-
-explicacao:
-	quais tamanhos de prefixo que podem 'resumir'
-	a string (se repetir o prefixo, reconstruo a
-	string igual toda). legal por causa do hash na
-
-	string e ainda o hash em [l, r] mt brabo
-*/
+///*
+//periodic strings
+//
+//explicacao:
+//	quais tamanhos de prefixo que podem 'resumir'
+//	a string (se repetir o prefixo, reconstruo a
+//	string igual toda). legal por causa do hash na
+//
+//	string e ainda o hash em [l, r] mt brabo
+//*/
 #include <bits/stdc++.h>
 #define f first
 #define s second
