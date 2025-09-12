@@ -110,4 +110,3 @@ struct Aho{
             appear[i] = trie[u].i;
     }
 };
-}
