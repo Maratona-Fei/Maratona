@@ -375,3 +375,17 @@ double perimeter(vector<pt>& v){
 	for(int i = 0; i < n; i++) ans += dist(v[i], v[(i + 1) % n]);
 	return ans;
 }
+
+// area de um poligono 2d
+double area2d(const vector<pt>& pol){
+	double res = 0;
+
+	for(int i = 0; i < (int)pol.size(); i++){
+		pt p = (i ? pol[i-1] : pol.back());
+		pt q = pol[i];
+
+		res += (p.x - q.x) * (p.y + q.y);
+	}
+
+	return fabs(res) / 2;
+}
